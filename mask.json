@@ -1,0 +1,2203 @@
+{
+    "version": "8.1.0",
+    "restructuringDone": false,
+    "tables": {
+        "pages": {
+            "elements": {
+                "default": {
+                    "color": "",
+                    "colorOverlay": "",
+                    "columns": {
+                        "0": "tx_mask_gf_customer_name",
+                        "1": "tx_mask_gf_customer_street",
+                        "2": "tx_mask_gf_customer_street_nr",
+                        "3": "tx_mask_gf_customer_zip",
+                        "4": "tx_mask_gf_customer_city",
+                        "5": "tx_mask_gf_customer_phone",
+                        "6": "tx_mask_gf_customer_hotline",
+                        "7": "tx_mask_gf_customer_fax",
+                        "8": "tx_mask_gf_customer_mail",
+                        "9": "tx_mask_hlg_leistungsbereiche",
+                        "12": "tx_mask_hlg_colors"
+                    },
+                    "description": "dummy description",
+                    "descriptions": {
+                        "0": "",
+                        "1": "",
+                        "2": "",
+                        "3": "",
+                        "4": "",
+                        "5": "",
+                        "6": "",
+                        "7": "",
+                        "8": "",
+                        "9": "",
+                        "12": ""
+                    },
+                    "icon": "",
+                    "iconOverlay": "",
+                    "key": "default",
+                    "label": "LLL:EXT:gf_sitepackage\/Resources\/Private\/Language\/locallang_be.xlf:backend_layout.default",
+                    "labels": {
+                        "0": "Kunde: Name",
+                        "1": "Kunde: Stra\u00dfe",
+                        "2": "Kunde: Hausnummer",
+                        "3": "Kunde: Postleitzahl",
+                        "4": "Kunde: Ort",
+                        "5": "Kunde: Telefonnummer",
+                        "6": "Kunde: Hotline",
+                        "7": "Kunde: Faxnummer",
+                        "8": "Kunde: E-Mail",
+                        "9": "Leistungsbereiche (Wird auch beim gro\u00dfen Slider verwendet)",
+                        "12": "Farben"
+                    },
+                    "shortLabel": "dummy shortitle",
+                    "sorting": 0
+                },
+                "subpage": {
+                    "color": "",
+                    "colorOverlay": "",
+                    "columns": [
+                        "tx_mask_pageicon",
+                        "tx_mask_pagecolor"
+                    ],
+                    "description": "dummy description",
+                    "descriptions": [
+                        "",
+                        ""
+                    ],
+                    "icon": "",
+                    "iconOverlay": "",
+                    "key": "subpage",
+                    "label": "LLL:EXT:gf_sitepackage\/Resources\/Private\/Language\/locallang_be.xlf:backend_layout.subpage",
+                    "labels": [
+                        "Seitenicon (F\u00fcr Nav)",
+                        "Seitenfarbe (F\u00fcr Nav)"
+                    ],
+                    "shortLabel": "dummy shortitle",
+                    "sorting": 0
+                }
+            },
+            "sql": {
+                "tx_mask_gf_customer_city": {
+                    "pages": {
+                        "tx_mask_gf_customer_city": "tinytext"
+                    }
+                },
+                "tx_mask_gf_customer_fax": {
+                    "pages": {
+                        "tx_mask_gf_customer_fax": "tinytext"
+                    }
+                },
+                "tx_mask_gf_customer_hotline": {
+                    "pages": {
+                        "tx_mask_gf_customer_hotline": "tinytext"
+                    }
+                },
+                "tx_mask_gf_customer_mail": {
+                    "pages": {
+                        "tx_mask_gf_customer_mail": "tinytext"
+                    }
+                },
+                "tx_mask_gf_customer_name": {
+                    "pages": {
+                        "tx_mask_gf_customer_name": "tinytext"
+                    }
+                },
+                "tx_mask_gf_customer_phone": {
+                    "pages": {
+                        "tx_mask_gf_customer_phone": "tinytext"
+                    }
+                },
+                "tx_mask_gf_customer_street": {
+                    "pages": {
+                        "tx_mask_gf_customer_street": "tinytext"
+                    }
+                },
+                "tx_mask_gf_customer_street_nr": {
+                    "pages": {
+                        "tx_mask_gf_customer_street_nr": "tinytext"
+                    }
+                },
+                "tx_mask_gf_customer_zip": {
+                    "pages": {
+                        "tx_mask_gf_customer_zip": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_colors": {
+                    "pages": {
+                        "tx_mask_hlg_colors": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_hlg_leistungsbereiche": {
+                    "pages": {
+                        "tx_mask_hlg_leistungsbereiche": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_pagecolor": {
+                    "pages": {
+                        "tx_mask_pagecolor": "tinytext"
+                    }
+                },
+                "tx_mask_pageicon": {
+                    "pages": {
+                        "tx_mask_pageicon": "tinytext"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_gf_customer_city": {
+                    "config": {
+                        "default": "",
+                        "placeholder": "",
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_gf_customer_city",
+                    "key": "gf_customer_city",
+                    "type": "string"
+                },
+                "tx_mask_gf_customer_fax": {
+                    "config": {
+                        "default": "",
+                        "placeholder": "",
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_gf_customer_fax",
+                    "key": "gf_customer_fax",
+                    "type": "string"
+                },
+                "tx_mask_gf_customer_hotline": {
+                    "config": {
+                        "default": "",
+                        "placeholder": "",
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_gf_customer_hotline",
+                    "key": "gf_customer_hotline",
+                    "type": "string"
+                },
+                "tx_mask_gf_customer_mail": {
+                    "config": {
+                        "default": "",
+                        "placeholder": "",
+                        "required": 1,
+                        "type": "email"
+                    },
+                    "fullKey": "tx_mask_gf_customer_mail",
+                    "key": "gf_customer_mail",
+                    "type": "email"
+                },
+                "tx_mask_gf_customer_name": {
+                    "config": {
+                        "default": "",
+                        "placeholder": "",
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_gf_customer_name",
+                    "key": "gf_customer_name",
+                    "type": "string"
+                },
+                "tx_mask_gf_customer_phone": {
+                    "config": {
+                        "default": "",
+                        "placeholder": "",
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_gf_customer_phone",
+                    "key": "gf_customer_phone",
+                    "type": "string"
+                },
+                "tx_mask_gf_customer_street": {
+                    "config": {
+                        "default": "",
+                        "placeholder": "",
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_gf_customer_street",
+                    "key": "gf_customer_street",
+                    "type": "string"
+                },
+                "tx_mask_gf_customer_street_nr": {
+                    "config": {
+                        "default": "",
+                        "placeholder": "",
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_gf_customer_street_nr",
+                    "key": "gf_customer_street_nr",
+                    "type": "string"
+                },
+                "tx_mask_gf_customer_zip": {
+                    "config": {
+                        "default": "",
+                        "placeholder": "",
+                        "required": 1,
+                        "type": "number"
+                    },
+                    "fullKey": "tx_mask_gf_customer_zip",
+                    "key": "gf_customer_zip",
+                    "type": "integer"
+                },
+                "tx_mask_hlg_colors": {
+                    "config": {
+                        "appearance": {
+                            "collapseAll": "1",
+                            "enabledControls": {
+                                "dragdrop": "1"
+                            },
+                            "expandSingle": "1",
+                            "levelLinksPosition": "both",
+                            "newRecordLinkTitle": "Neue Farbe erstellen",
+                            "useSortable": "1"
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_hlg_colors",
+                    "key": "hlg_colors",
+                    "l10n_mode": "exclude",
+                    "type": "inline"
+                },
+                "tx_mask_hlg_leistungsbereiche": {
+                    "config": {
+                        "appearance": {
+                            "collapseAll": "1",
+                            "enabledControls": {
+                                "dragdrop": "1"
+                            },
+                            "expandSingle": "1",
+                            "levelLinksPosition": "both",
+                            "newRecordLinkTitle": "Neuen Leistungsbereich erstellen",
+                            "useSortable": "1"
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_hlg_leistungsbereiche",
+                    "key": "hlg_leistungsbereiche",
+                    "l10n_mode": "exclude",
+                    "type": "inline"
+                },
+                "tx_mask_pagecolor": {
+                    "config": {
+                        "items": [
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Keine",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Transport",
+                                "value": "bg-cerulean"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Logistik",
+                                "value": "bg-celery"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Beratung & Akademie",
+                                "value": "bg-mandy"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Service",
+                                "value": "bg-saffron"
+                            }
+                        ],
+                        "renderType": "selectSingle",
+                        "type": "select"
+                    },
+                    "fullKey": "tx_mask_pagecolor",
+                    "key": "pagecolor",
+                    "type": "select"
+                },
+                "tx_mask_pageicon": {
+                    "config": {
+                        "items": [
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Keins",
+                                "value": ""
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Maschinenbau",
+                                "value": "icon-mechanical"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Chemie",
+                                "value": "icon-chemistry"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Pharma",
+                                "value": "icon-pharma"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Automotive",
+                                "value": "icon-automotive"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Lebensmittel",
+                                "value": "icon-foods"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Druck und Medien",
+                                "value": "icon-printing"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Bauwirtschaft",
+                                "value": "icon-construction"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Land- und Forstwirtschaft",
+                                "value": "icon-forest"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Papier und Kartonagen",
+                                "value": "icon-cardboard"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Textilien",
+                                "value": "icon-tshirt"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Produzierendes Gewerbe",
+                                "value": "icon-industry"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "High-Value",
+                                "value": "icon-value"
+                            }
+                        ],
+                        "renderType": "selectSingle",
+                        "type": "select"
+                    },
+                    "fullKey": "tx_mask_pageicon",
+                    "key": "pageicon",
+                    "type": "select"
+                }
+            }
+        },
+        "sys_file_reference": {
+            "sql": {
+                "tx_mask_bild": {
+                    "sys_file_reference": {
+                        "tx_mask_bild": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_hlg_ansprechpartner_single_downloads": {
+                    "sys_file_reference": {
+                        "tx_mask_hlg_ansprechpartner_single_downloads": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_image": {
+                    "sys_file_reference": {
+                        "tx_mask_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_page_icon": {
+                    "sys_file_reference": {
+                        "tx_mask_page_icon": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                }
+            }
+        },
+        "tt_content": {
+            "elements": {
+                "hlg_ansprechpartner": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "tx_mask_hlg_ansprechpartner_ansprechpartner"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        ""
+                    ],
+                    "icon": "fa-user-plus",
+                    "iconOverlay": "",
+                    "key": "hlg_ansprechpartner",
+                    "label": "HLG - Ansprechpartner (Alle)",
+                    "labels": [
+                        "Ansprechpartner"
+                    ],
+                    "shortLabel": "HLG - Ansprechpartner (Alle)",
+                    "sorting": 0
+                },
+                "hlg_ansprechpartner_single": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "tx_mask_title",
+                        "tx_mask_hlg_ansprechpartner_single_list",
+                        "tx_mask_hlg_ansprechpartner_single_downloads"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-user",
+                    "iconOverlay": "",
+                    "key": "hlg_ansprechpartner_single",
+                    "label": "HLG - Einzelner Ansprechpartner mit Downloads",
+                    "labels": [
+                        "Titel",
+                        "Ansprechpartner",
+                        "Downloads"
+                    ],
+                    "shortLabel": "HLG - Ansprechpartner und Downloads",
+                    "sorting": 0
+                },
+                "hlg_fullwidth_bg_img_list": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "image",
+                        "tx_mask_hlg_fullwidth_bg_img_list_blocks"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-file-text-o",
+                    "iconOverlay": "",
+                    "key": "hlg_fullwidth_bg_img_list",
+                    "label": "HLG - Gesamte Breite Hintergrund mit Liste",
+                    "labels": [
+                        "",
+                        "Hintergrund",
+                        "Listenblock"
+                    ],
+                    "shortLabel": "HLG - Gesamte Breite Hintergrund mit Liste",
+                    "sorting": 0
+                },
+                "hlg_fullwidth_bg_img_text": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "bodytext",
+                        "image",
+                        "tx_mask_hlg_fullwidth_bg_img_text_link"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-file-text-o",
+                    "iconOverlay": "",
+                    "key": "hlg_fullwidth_bg_img_text",
+                    "label": "HLG - Gesamte Breite Hintergrund mit Text",
+                    "labels": [
+                        "",
+                        "",
+                        "Hintergrund",
+                        "Link"
+                    ],
+                    "shortLabel": "HLG - Gesamte Breite Hintergrund mit Text",
+                    "sorting": 0
+                },
+                "hlg_jobs": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "tx_mask_hlg_jobs"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-user-md",
+                    "iconOverlay": "",
+                    "key": "hlg_jobs",
+                    "label": "HLG - Jobs",
+                    "labels": [
+                        "",
+                        "Jobs"
+                    ],
+                    "shortLabel": "HLG - Jobs",
+                    "sorting": 0
+                },
+                "hlg_leistung": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "bodytext",
+                        "image",
+                        "header_link",
+                        "tx_mask_hlg_leistung_leistungsbereich"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-list-alt",
+                    "iconOverlay": "",
+                    "key": "hlg_leistung",
+                    "label": "HLG - Leistung",
+                    "labels": [
+                        "",
+                        "",
+                        "Bild",
+                        "Link",
+                        "Leistungsbereich"
+                    ],
+                    "shortLabel": "HLG - Leistung",
+                    "sorting": 0
+                },
+                "hlg_leistungen_content": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "tx_mask_darstellung",
+                        "tx_mask_content_leistungen"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-dropbox",
+                    "iconOverlay": "",
+                    "key": "hlg_leistungen_content",
+                    "label": "HLG - Unsere Leistungen (Inhaltsbereich)",
+                    "labels": [
+                        "Darstellung",
+                        "Inhaltsbereich"
+                    ],
+                    "shortLabel": "HLG - Unsere Leistungen (Inhaltsbereich)",
+                    "sorting": 0
+                },
+                "hlg_slider": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": {
+                        "0": "tx_mask_hlg_slider_slides",
+                        "6": "tx_mask_hlg_slider_height"
+                    },
+                    "description": "",
+                    "descriptions": {
+                        "0": "",
+                        "6": ""
+                    },
+                    "icon": "fa-picture-o",
+                    "iconOverlay": "",
+                    "key": "hlg_slider",
+                    "label": "HLG - Gro\u00dfer Bild-Slider",
+                    "labels": {
+                        "0": "Slide Elemente:",
+                        "6": "H\u00f6he"
+                    },
+                    "shortLabel": "HLG - Gro\u00dfer Bild-Slider",
+                    "sorting": 0
+                },
+                "hlg_slider_branchen": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [],
+                    "description": "",
+                    "descriptions": [],
+                    "icon": "fa-file-text-o",
+                    "iconOverlay": "",
+                    "key": "hlg_slider_branchen",
+                    "label": "HLG - Branchenslider",
+                    "labels": [],
+                    "shortLabel": "HLG - Branchenslider",
+                    "sorting": 0
+                },
+                "hlg_teaser": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "subheader",
+                        "bodytext",
+                        "tx_mask_hlg_teaser_link"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-file-text-o",
+                    "iconOverlay": "",
+                    "key": "hlg_teaser",
+                    "label": "HLG - Teaser",
+                    "labels": [
+                        "",
+                        "",
+                        "",
+                        "Link"
+                    ],
+                    "shortLabel": "HLG - Teaser",
+                    "sorting": 0
+                },
+                "hlg_text_datas": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "tx_mask_subtitle",
+                        "bodytext",
+                        "tx_mask_hlg_text_datas_link",
+                        "tx_mask_hlg_text_datas_label1",
+                        "tx_mask_hlg_text_datas_value1",
+                        "tx_mask_hlg_text_datas_label2",
+                        "tx_mask_hlg_text_datas_value2",
+                        "tx_mask_hlg_text_datas_label3",
+                        "tx_mask_hlg_text_datas_value3"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-file-text-o",
+                    "iconOverlay": "",
+                    "key": "hlg_text_datas",
+                    "label": "HLG - Text mit Daten",
+                    "labels": [
+                        "",
+                        "Untertitel",
+                        "",
+                        "Link",
+                        "Label 1",
+                        "Wert 1",
+                        "Label 2",
+                        "Wert 2",
+                        "Label 3",
+                        "Value 3"
+                    ],
+                    "shortLabel": "HLG - Text mit Daten",
+                    "sorting": 0
+                },
+                "hlg_text_icon": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "tx_mask_subtitle",
+                        "bodytext",
+                        "tx_mask_hlg_text_icon_link",
+                        "tx_mask_hlg_text_icon_icon"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-file-text-o",
+                    "iconOverlay": "",
+                    "key": "hlg_text_icon",
+                    "label": "HLG - Text mit Bereichsicon",
+                    "labels": [
+                        "",
+                        "Untertitel",
+                        "",
+                        "Link",
+                        "Bereichsicon"
+                    ],
+                    "shortLabel": "HLG - Text mit Bereichsicon",
+                    "sorting": 0
+                },
+                "hlg_text_img": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "subheader",
+                        "bodytext",
+                        "tx_mask_hlg_text_img_link",
+                        "image",
+                        "tx_mask_hlg_text_img_orientation",
+                        "tx_mask_slide_images"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-file-text-o",
+                    "iconOverlay": "",
+                    "key": "hlg_text_img",
+                    "label": "HLG - Text \/ Bild",
+                    "labels": [
+                        "",
+                        "",
+                        "",
+                        "Link",
+                        "",
+                        "Orientierung",
+                        "Bilder als Slider"
+                    ],
+                    "shortLabel": "HLG - Text \/ Bild",
+                    "sorting": 0
+                },
+                "hlg_text_img_list": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "bodytext",
+                        "image"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-file-text-o",
+                    "iconOverlay": "",
+                    "key": "hlg_text_img_list",
+                    "label": "HLG - Liste links mit Bild rechts",
+                    "labels": [
+                        "",
+                        "",
+                        ""
+                    ],
+                    "shortLabel": "HLG - Liste links mit Bild rechts",
+                    "sorting": 0
+                },
+                "hlg_text_img_scrollable_list": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "bodytext",
+                        "image"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-file-text-o",
+                    "iconOverlay": "",
+                    "key": "hlg_text_img_scrollable_list",
+                    "label": "HLG - Bild links mit scrollbarer Liste rechts",
+                    "labels": [
+                        "",
+                        "",
+                        ""
+                    ],
+                    "shortLabel": "HLG - Bild links mit scrollbarer Liste rechts",
+                    "sorting": 0
+                },
+                "hlg_text_img_slider": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "tx_mask_hlg_text_img_slider_slides"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-file-text-o",
+                    "iconOverlay": "",
+                    "key": "hlg_text_img_slider",
+                    "label": "HLG - Text \/ Bild (Slider)",
+                    "labels": [
+                        "",
+                        "Slides"
+                    ],
+                    "shortLabel": "HLG - Text \/ Bild (Slider)",
+                    "sorting": 0
+                },
+                "hlg_welcomescreen": {
+                    "color": "#005282",
+                    "colorOverlay": "",
+                    "columns": [
+                        "header",
+                        "tx_mask_hlg_welcomescreen_aktuelles",
+                        "image",
+                        "tx_mask_hlg_welcomescreen_warning"
+                    ],
+                    "description": "",
+                    "descriptions": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "icon": "fa-tv",
+                    "iconOverlay": "",
+                    "key": "hlg_welcomescreen",
+                    "label": "HLG - Willkommensbildschirm",
+                    "labels": [
+                        "",
+                        "Aktuelles",
+                        "Hintergrundbild",
+                        "Warnung"
+                    ],
+                    "shortLabel": "HLG - Willkommensbildschirm",
+                    "sorting": 0
+                }
+            },
+            "sql": {
+                "tx_mask_content_leistungen": {
+                    "tt_content": {
+                        "tx_mask_content_leistungen": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_darstellung": {
+                    "tt_content": {
+                        "tx_mask_darstellung": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_ansprechpartner_ansprechpartner": {
+                    "tt_content": {
+                        "tx_mask_hlg_ansprechpartner_ansprechpartner": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_hlg_ansprechpartner_single_downloads": {
+                    "tt_content": {
+                        "tx_mask_hlg_ansprechpartner_single_downloads": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_hlg_ansprechpartner_single_list": {
+                    "tt_content": {
+                        "tx_mask_hlg_ansprechpartner_single_list": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_fullwidth_bg_img_list_blocks": {
+                    "tt_content": {
+                        "tx_mask_hlg_fullwidth_bg_img_list_blocks": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_hlg_fullwidth_bg_img_text_link": {
+                    "tt_content": {
+                        "tx_mask_hlg_fullwidth_bg_img_text_link": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_jobs": {
+                    "tt_content": {
+                        "tx_mask_hlg_jobs": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_hlg_leistung_leistungsbereich": {
+                    "tt_content": {
+                        "tx_mask_hlg_leistung_leistungsbereich": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_slider_height": {
+                    "tt_content": {
+                        "tx_mask_hlg_slider_height": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_slider_slides": {
+                    "tt_content": {
+                        "tx_mask_hlg_slider_slides": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_hlg_teaser_link": {
+                    "tt_content": {
+                        "tx_mask_hlg_teaser_link": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_text_datas_label1": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_datas_label1": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_text_datas_label2": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_datas_label2": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_text_datas_label3": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_datas_label3": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_text_datas_link": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_datas_link": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_text_datas_value1": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_datas_value1": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_text_datas_value2": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_datas_value2": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_text_datas_value3": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_datas_value3": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_text_icon_icon": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_icon_icon": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_text_icon_link": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_icon_link": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_text_img_link": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_img_link": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_text_img_orientation": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_img_orientation": "int(11) DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_hlg_text_img_slider_slides": {
+                    "tt_content": {
+                        "tx_mask_hlg_text_img_slider_slides": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_hlg_welcomescreen_aktuelles": {
+                    "tt_content": {
+                        "tx_mask_hlg_welcomescreen_aktuelles": "tinytext"
+                    }
+                },
+                "tx_mask_hlg_welcomescreen_warning": {
+                    "tt_content": {
+                        "tx_mask_hlg_welcomescreen_warning": "text"
+                    }
+                },
+                "tx_mask_slide_images": {
+                    "tt_content": {
+                        "tx_mask_slide_images": "int(11) DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_subtitle": {
+                    "tt_content": {
+                        "tx_mask_subtitle": "text"
+                    }
+                },
+                "tx_mask_title": {
+                    "tt_content": {
+                        "tx_mask_title": "text"
+                    }
+                }
+            },
+            "tca": {
+                "bodytext": {
+                    "fullKey": "bodytext",
+                    "key": "bodytext",
+                    "type": "richtext"
+                },
+                "header": {
+                    "fullKey": "header",
+                    "key": "header"
+                },
+                "header_link": {
+                    "fullKey": "header_link",
+                    "key": "header_link"
+                },
+                "image": {
+                    "fullKey": "image",
+                    "key": "image"
+                },
+                "subheader": {
+                    "fullKey": "subheader",
+                    "key": "subheader"
+                },
+                "tx_mask_content_leistungen": {
+                    "cTypes": [
+                        "mask_hlg_leistung"
+                    ],
+                    "config": {
+                        "appearance": {
+                            "collapseAll": "1",
+                            "enabledControls": {
+                                "dragdrop": "1"
+                            },
+                            "levelLinksPosition": "both",
+                            "showAllLocalizationLink": "1",
+                            "showPossibleLocalizationRecords": "1",
+                            "showSynchronizationLink": "1",
+                            "useSortable": "1"
+                        },
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "tt_content",
+                        "overrideChildTca": {
+                            "columns": {
+                                "colPos": {
+                                    "config": {
+                                        "default": "999"
+                                    }
+                                }
+                            }
+                        },
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_content_leistungen",
+                    "key": "content_leistungen",
+                    "l10n_mode": "copy",
+                    "type": "content"
+                },
+                "tx_mask_darstellung": {
+                    "config": {
+                        "items": [
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Leistungen",
+                                "value": "10"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Sonstiges",
+                                "value": "20"
+                            }
+                        ],
+                        "renderType": "selectSingle",
+                        "type": "select"
+                    },
+                    "fullKey": "tx_mask_darstellung",
+                    "key": "darstellung",
+                    "type": "select"
+                },
+                "tx_mask_hlg_ansprechpartner_ansprechpartner": {
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "dragdrop": "1"
+                            },
+                            "expandSingle": "1",
+                            "levelLinksPosition": "both",
+                            "newRecordLinkTitle": "Neuen Ansprechpartner erstellen",
+                            "showAllLocalizationLink": "1",
+                            "showPossibleLocalizationRecords": "1",
+                            "showSynchronizationLink": "1",
+                            "useSortable": "1"
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "minitems": "1",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_hlg_ansprechpartner_ansprechpartner",
+                    "key": "hlg_ansprechpartner_ansprechpartner",
+                    "l10n_mode": "copy",
+                    "type": "inline"
+                },
+                "tx_mask_hlg_ansprechpartner_single_downloads": {
+                    "config": {
+                        "appearance": {
+                            "expandSingle": "1",
+                            "fileUploadAllowed": "1",
+                            "useSortable": "1"
+                        },
+                        "maxitems": "3",
+                        "minitems": "1"
+                    },
+                    "fullKey": "tx_mask_hlg_ansprechpartner_single_downloads",
+                    "imageoverlayPalette": 1,
+                    "key": "hlg_ansprechpartner_single_downloads",
+                    "l10n_mode": "copy",
+                    "type": "file"
+                },
+                "tx_mask_hlg_ansprechpartner_single_list": {
+                    "config": {
+                        "foreign_table": "tx_mask_hlg_ansprechpartner_ansprechpartner",
+                        "foreign_table_where": "AND tx_mask_hlg_ansprechpartner_ansprechpartner.deleted=0 AND tx_mask_hlg_ansprechpartner_ansprechpartner.hidden=0 AND tx_mask_hlg_ansprechpartner_ansprechpartner.sys_language_uid=###REC_FIELD_sys_language_uid###",
+                        "renderType": "selectCheckBox",
+                        "type": "select"
+                    },
+                    "fullKey": "tx_mask_hlg_ansprechpartner_single_list",
+                    "key": "hlg_ansprechpartner_single_list",
+                    "type": "select"
+                },
+                "tx_mask_hlg_fullwidth_bg_img_list_blocks": {
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "dragdrop": "1"
+                            },
+                            "expandSingle": "1",
+                            "levelLinksPosition": "both",
+                            "showAllLocalizationLink": "1",
+                            "showPossibleLocalizationRecords": "1",
+                            "showSynchronizationLink": "1",
+                            "useSortable": "1"
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "minitems": "1",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_hlg_fullwidth_bg_img_list_blocks",
+                    "key": "hlg_fullwidth_bg_img_list_blocks",
+                    "l10n_mode": "copy",
+                    "type": "inline"
+                },
+                "tx_mask_hlg_fullwidth_bg_img_text_link": {
+                    "config": {
+                        "type": "link"
+                    },
+                    "fullKey": "tx_mask_hlg_fullwidth_bg_img_text_link",
+                    "key": "hlg_fullwidth_bg_img_text_link",
+                    "type": "link"
+                },
+                "tx_mask_hlg_jobs": {
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "dragdrop": "1"
+                            },
+                            "expandSingle": "1",
+                            "levelLinksPosition": "both",
+                            "newRecordLinkTitle": "Neuen Job erstellen",
+                            "showAllLocalizationLink": "1",
+                            "showPossibleLocalizationRecords": "1",
+                            "showSynchronizationLink": "1",
+                            "useSortable": "1"
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "minitems": "1",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_hlg_jobs",
+                    "key": "hlg_jobs",
+                    "l10n_mode": "copy",
+                    "type": "inline"
+                },
+                "tx_mask_hlg_leistung_leistungsbereich": {
+                    "config": {
+                        "foreign_table": "tx_mask_hlg_leistungsbereiche",
+                        "items": [
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Kein Leistungsbereich",
+                                "value": "100"
+                            }
+                        ],
+                        "renderType": "selectSingle",
+                        "type": "select"
+                    },
+                    "fullKey": "tx_mask_hlg_leistung_leistungsbereich",
+                    "key": "hlg_leistung_leistungsbereich",
+                    "type": "select"
+                },
+                "tx_mask_hlg_slider_height": {
+                    "config": {
+                        "items": [
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Normal",
+                                "value": "0"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Halbhoch",
+                                "value": "1"
+                            }
+                        ],
+                        "renderType": "selectSingle",
+                        "type": "select"
+                    },
+                    "fullKey": "tx_mask_hlg_slider_height",
+                    "key": "hlg_slider_height",
+                    "type": "select"
+                },
+                "tx_mask_hlg_slider_slides": {
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "dragdrop": "1"
+                            },
+                            "expandSingle": "1",
+                            "levelLinksPosition": "both",
+                            "showAllLocalizationLink": "1",
+                            "showPossibleLocalizationRecords": "1",
+                            "showSynchronizationLink": "1",
+                            "useSortable": "1"
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "minitems": "1",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_hlg_slider_slides",
+                    "key": "hlg_slider_slides",
+                    "l10n_mode": "copy",
+                    "type": "inline"
+                },
+                "tx_mask_hlg_teaser_link": {
+                    "config": {
+                        "nullable": 1,
+                        "type": "link"
+                    },
+                    "fullKey": "tx_mask_hlg_teaser_link",
+                    "key": "hlg_teaser_link",
+                    "type": "link"
+                },
+                "tx_mask_hlg_text_datas_label1": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_hlg_text_datas_label1",
+                    "key": "hlg_text_datas_label1",
+                    "type": "string"
+                },
+                "tx_mask_hlg_text_datas_label2": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_hlg_text_datas_label2",
+                    "key": "hlg_text_datas_label2",
+                    "type": "string"
+                },
+                "tx_mask_hlg_text_datas_label3": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_hlg_text_datas_label3",
+                    "key": "hlg_text_datas_label3",
+                    "type": "string"
+                },
+                "tx_mask_hlg_text_datas_link": {
+                    "config": {
+                        "nullable": 1,
+                        "type": "link"
+                    },
+                    "fullKey": "tx_mask_hlg_text_datas_link",
+                    "key": "hlg_text_datas_link",
+                    "type": "link"
+                },
+                "tx_mask_hlg_text_datas_value1": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_hlg_text_datas_value1",
+                    "key": "hlg_text_datas_value1",
+                    "type": "string"
+                },
+                "tx_mask_hlg_text_datas_value2": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_hlg_text_datas_value2",
+                    "key": "hlg_text_datas_value2",
+                    "type": "string"
+                },
+                "tx_mask_hlg_text_datas_value3": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_hlg_text_datas_value3",
+                    "key": "hlg_text_datas_value3",
+                    "type": "string"
+                },
+                "tx_mask_hlg_text_icon_icon": {
+                    "config": {
+                        "autoSizeMax": "1",
+                        "items": [
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Automobil",
+                                "value": "10"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Bauwirtschaft",
+                                "value": "15"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Chemie",
+                                "value": "20"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Druck",
+                                "value": "30"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Einzelhandel",
+                                "value": "40"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Getr\u00e4nke",
+                                "value": "50"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "High Value",
+                                "value": "60"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Konsumg\u00fcter",
+                                "value": "70"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Papier und Kartonagen",
+                                "value": "76"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Lebensmittel",
+                                "value": "80"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Maschinen",
+                                "value": "90"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Pharma",
+                                "value": "100"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Land und Forstwirtschaft",
+                                "value": "106"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Textilien",
+                                "value": "110"
+                            },
+                            {
+                                "description": "",
+                                "group": "",
+                                "icon": "",
+                                "label": "Produzierendes Gewerbe",
+                                "value": "116"
+                            }
+                        ],
+                        "maxitems": "1",
+                        "renderType": "selectSingle",
+                        "type": "select"
+                    },
+                    "fullKey": "tx_mask_hlg_text_icon_icon",
+                    "key": "hlg_text_icon_icon",
+                    "type": "select"
+                },
+                "tx_mask_hlg_text_icon_link": {
+                    "config": {
+                        "nullable": 1,
+                        "type": "link"
+                    },
+                    "fullKey": "tx_mask_hlg_text_icon_link",
+                    "key": "hlg_text_icon_link",
+                    "type": "link"
+                },
+                "tx_mask_hlg_text_img_link": {
+                    "config": {
+                        "nullable": 1,
+                        "type": "link"
+                    },
+                    "fullKey": "tx_mask_hlg_text_img_link",
+                    "key": "hlg_text_img_link",
+                    "type": "link"
+                },
+                "tx_mask_hlg_text_img_orientation": {
+                    "config": {
+                        "default": "10",
+                        "items": [
+                            {
+                                "label": "Text links \/ Bild rechts",
+                                "value": "10"
+                            },
+                            {
+                                "label": "Bild links \/ Text rechts",
+                                "value": "20"
+                            }
+                        ],
+                        "type": "radio"
+                    },
+                    "fullKey": "tx_mask_hlg_text_img_orientation",
+                    "key": "hlg_text_img_orientation",
+                    "type": "radio"
+                },
+                "tx_mask_hlg_text_img_slider_slides": {
+                    "config": {
+                        "appearance": {
+                            "enabledControls": {
+                                "dragdrop": "1"
+                            },
+                            "levelLinksPosition": "both",
+                            "showAllLocalizationLink": "1",
+                            "showPossibleLocalizationRecords": "1",
+                            "showSynchronizationLink": "1",
+                            "useSortable": "1"
+                        },
+                        "foreign_field": "parentid",
+                        "foreign_sortby": "sorting",
+                        "foreign_table": "--inlinetable--",
+                        "foreign_table_field": "parenttable",
+                        "type": "inline"
+                    },
+                    "fullKey": "tx_mask_hlg_text_img_slider_slides",
+                    "key": "hlg_text_img_slider_slides",
+                    "l10n_mode": "copy",
+                    "type": "inline"
+                },
+                "tx_mask_hlg_welcomescreen_aktuelles": {
+                    "config": {
+                        "autocomplete": "1",
+                        "default": "Lorem ipsum dolor sit amet, consecte uer adipiscing elit. Aenean commeodo sociis natoque penatibus et magnis dis Donpellentesque eupretiumquis.",
+                        "placeholder": "Lorem ipsum dolor sit amet, consecte uer adipiscing elit. Aenean commeodo sociis natoque penatibus et magnis dis Donpellentesque eupretiumquis.",
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_hlg_welcomescreen_aktuelles",
+                    "key": "hlg_welcomescreen_aktuelles",
+                    "type": "string"
+                },
+                "tx_mask_hlg_welcomescreen_warning": {
+                    "config": {
+                        "default": "",
+                        "enableRichtext": 1,
+                        "richtextConfiguration": "default",
+                        "type": "text"
+                    },
+                    "fullKey": "tx_mask_hlg_welcomescreen_warning",
+                    "key": "hlg_welcomescreen_warning",
+                    "type": "richtext"
+                },
+                "tx_mask_slide_images": {
+                    "config": {
+                        "items": [
+                            {
+                                "label": "Aktivieren"
+                            }
+                        ],
+                        "type": "check"
+                    },
+                    "fullKey": "tx_mask_slide_images",
+                    "key": "slide_images",
+                    "type": "check"
+                },
+                "tx_mask_subtitle": {
+                    "config": {
+                        "rows": "2",
+                        "type": "text"
+                    },
+                    "fullKey": "tx_mask_subtitle",
+                    "key": "subtitle",
+                    "type": "text"
+                },
+                "tx_mask_title": {
+                    "config": {
+                        "rows": "2",
+                        "type": "text"
+                    },
+                    "fullKey": "tx_mask_title",
+                    "key": "title",
+                    "type": "text"
+                }
+            }
+        },
+        "tx_mask_hlg_ansprechpartner_ansprechpartner": {
+            "sql": {
+                "tx_mask_abteilung": {
+                    "tx_mask_hlg_ansprechpartner_ansprechpartner": {
+                        "tx_mask_abteilung": "tinytext"
+                    }
+                },
+                "tx_mask_email": {
+                    "tx_mask_hlg_ansprechpartner_ansprechpartner": {
+                        "tx_mask_email": "tinytext"
+                    }
+                },
+                "tx_mask_fax": {
+                    "tx_mask_hlg_ansprechpartner_ansprechpartner": {
+                        "tx_mask_fax": "tinytext"
+                    }
+                },
+                "tx_mask_image": {
+                    "tx_mask_hlg_ansprechpartner_ansprechpartner": {
+                        "tx_mask_image": "tinytext"
+                    }
+                },
+                "tx_mask_nachname": {
+                    "tx_mask_hlg_ansprechpartner_ansprechpartner": {
+                        "tx_mask_nachname": "tinytext"
+                    }
+                },
+                "tx_mask_telefon": {
+                    "tx_mask_hlg_ansprechpartner_ansprechpartner": {
+                        "tx_mask_telefon": "tinytext"
+                    }
+                },
+                "tx_mask_vorname": {
+                    "tx_mask_hlg_ansprechpartner_ansprechpartner": {
+                        "tx_mask_vorname": "tinytext"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_abteilung": {
+                    "config": {
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_abteilung",
+                    "inlineParent": "tx_mask_hlg_ansprechpartner_ansprechpartner",
+                    "key": "abteilung",
+                    "label": "Abteilung",
+                    "type": "string"
+                },
+                "tx_mask_email": {
+                    "config": {
+                        "required": 1,
+                        "type": "email"
+                    },
+                    "fullKey": "tx_mask_email",
+                    "inlineParent": "tx_mask_hlg_ansprechpartner_ansprechpartner",
+                    "key": "email",
+                    "label": "E-Mail",
+                    "type": "email"
+                },
+                "tx_mask_fax": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_fax",
+                    "inlineParent": "tx_mask_hlg_ansprechpartner_ansprechpartner",
+                    "key": "fax",
+                    "label": "Fax",
+                    "type": "string"
+                },
+                "tx_mask_image": {
+                    "config": {
+                        "required": 1,
+                        "size": "1",
+                        "type": "link"
+                    },
+                    "fullKey": "tx_mask_image",
+                    "inlineParent": "tx_mask_hlg_ansprechpartner_ansprechpartner",
+                    "key": "image",
+                    "label": "Bild",
+                    "type": "link"
+                },
+                "tx_mask_nachname": {
+                    "config": {
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_nachname",
+                    "inlineParent": "tx_mask_hlg_ansprechpartner_ansprechpartner",
+                    "key": "nachname",
+                    "label": "Nachname",
+                    "type": "string"
+                },
+                "tx_mask_telefon": {
+                    "config": {
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_telefon",
+                    "inlineParent": "tx_mask_hlg_ansprechpartner_ansprechpartner",
+                    "key": "telefon",
+                    "label": "Telefon",
+                    "type": "string"
+                },
+                "tx_mask_vorname": {
+                    "config": {
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_vorname",
+                    "inlineParent": "tx_mask_hlg_ansprechpartner_ansprechpartner",
+                    "key": "vorname",
+                    "label": "Vorname",
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_hlg_colors": {
+            "sql": {
+                "tx_mask_color": {
+                    "tx_mask_hlg_colors": {
+                        "tx_mask_color": "tinytext"
+                    }
+                },
+                "tx_mask_colorclass": {
+                    "tx_mask_hlg_colors": {
+                        "tx_mask_colorclass": "tinytext"
+                    }
+                },
+                "tx_mask_name": {
+                    "tx_mask_hlg_colors": {
+                        "tx_mask_name": "tinytext"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_color": {
+                    "config": {
+                        "default": "#f1f1f1",
+                        "max": "7",
+                        "placeholder": "#f1f1f1",
+                        "required": 1,
+                        "size": "7",
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_color",
+                    "inlineParent": "tx_mask_hlg_colors",
+                    "key": "color",
+                    "label": "Farbwert",
+                    "type": "string"
+                },
+                "tx_mask_colorclass": {
+                    "config": {
+                        "placeholder": "bg-cerulean",
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_colorclass",
+                    "inlineParent": "tx_mask_hlg_colors",
+                    "key": "colorclass",
+                    "label": "Farbklasse (CSS)",
+                    "type": "string"
+                },
+                "tx_mask_name": {
+                    "config": {
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_name",
+                    "inlineParent": "tx_mask_hlg_colors",
+                    "key": "name",
+                    "label": "Name",
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_hlg_fullwidth_bg_img_list_blocks": {
+            "sql": {
+                "tx_mask_hlg_fullwidth_bg_img_list_blocks_bodytext": {
+                    "tx_mask_hlg_fullwidth_bg_img_list_blocks": {
+                        "tx_mask_hlg_fullwidth_bg_img_list_blocks_bodytext": "text"
+                    }
+                },
+                "tx_mask_hlg_fullwidth_bg_img_list_blocks_header": {
+                    "tx_mask_hlg_fullwidth_bg_img_list_blocks": {
+                        "tx_mask_hlg_fullwidth_bg_img_list_blocks_header": "tinytext"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_hlg_fullwidth_bg_img_list_blocks_bodytext": {
+                    "config": {
+                        "enableRichtext": "1",
+                        "richtextConfiguration": "default",
+                        "type": "text"
+                    },
+                    "fullKey": "tx_mask_hlg_fullwidth_bg_img_list_blocks_bodytext",
+                    "inlineParent": "tx_mask_hlg_fullwidth_bg_img_list_blocks",
+                    "key": "hlg_fullwidth_bg_img_list_blocks_bodytext",
+                    "label": "Text",
+                    "type": "richtext"
+                },
+                "tx_mask_hlg_fullwidth_bg_img_list_blocks_header": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_hlg_fullwidth_bg_img_list_blocks_header",
+                    "inlineParent": "tx_mask_hlg_fullwidth_bg_img_list_blocks",
+                    "key": "hlg_fullwidth_bg_img_list_blocks_header",
+                    "label": "\u00dcberschrift",
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_hlg_jobs": {
+            "sql": {
+                "tx_mask_entrydate": {
+                    "tx_mask_hlg_jobs": {
+                        "tx_mask_entrydate": "date DEFAULT '0000-00-00'"
+                    }
+                },
+                "tx_mask_header2": {
+                    "tx_mask_hlg_jobs": {
+                        "tx_mask_header2": "tinytext"
+                    }
+                },
+                "tx_mask_sector": {
+                    "tx_mask_hlg_jobs": {
+                        "tx_mask_sector": "tinytext"
+                    }
+                },
+                "tx_mask_text": {
+                    "tx_mask_hlg_jobs": {
+                        "tx_mask_text": "text"
+                    }
+                },
+                "tx_mask_title": {
+                    "tx_mask_hlg_jobs": {
+                        "tx_mask_title": "tinytext"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_entrydate": {
+                    "config": {
+                        "dbType": "date",
+                        "eval": "date",
+                        "format": "date",
+                        "type": "datetime"
+                    },
+                    "fullKey": "tx_mask_entrydate",
+                    "inlineParent": "tx_mask_hlg_jobs",
+                    "key": "entrydate",
+                    "label": "Eintrittsdatum",
+                    "type": "date"
+                },
+                "tx_mask_header2": {
+                    "config": {
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_header2",
+                    "inlineParent": "tx_mask_hlg_jobs",
+                    "key": "header2",
+                    "label": "\u00dcberschrift",
+                    "type": "string"
+                },
+                "tx_mask_sector": {
+                    "config": {
+                        "placeholder": "Buchhaltung",
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_sector",
+                    "inlineParent": "tx_mask_hlg_jobs",
+                    "key": "sector",
+                    "label": "Bereich",
+                    "type": "string"
+                },
+                "tx_mask_text": {
+                    "config": {
+                        "enableRichtext": "1",
+                        "richtextConfiguration": "default",
+                        "type": "text"
+                    },
+                    "fullKey": "tx_mask_text",
+                    "inlineParent": "tx_mask_hlg_jobs",
+                    "key": "text",
+                    "label": "Text",
+                    "type": "richtext"
+                },
+                "tx_mask_title": {
+                    "config": {
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_title",
+                    "inlineParent": "tx_mask_hlg_jobs",
+                    "key": "title",
+                    "label": "Titel",
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_hlg_leistungsbereiche": {
+            "sql": {
+                "tx_mask_color": {
+                    "tx_mask_hlg_leistungsbereiche": {
+                        "tx_mask_color": "tinytext"
+                    }
+                },
+                "tx_mask_name": {
+                    "tx_mask_hlg_leistungsbereiche": {
+                        "tx_mask_name": "tinytext"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_color": {
+                    "config": {
+                        "foreign_table": "tx_mask_hlg_colors",
+                        "maxitems": "1",
+                        "renderType": "selectSingle",
+                        "type": "select"
+                    },
+                    "fullKey": "tx_mask_color",
+                    "inlineParent": "tx_mask_hlg_leistungsbereiche",
+                    "key": "color",
+                    "label": "Farbe",
+                    "type": "select"
+                },
+                "tx_mask_name": {
+                    "config": {
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_name",
+                    "inlineParent": "tx_mask_hlg_leistungsbereiche",
+                    "key": "name",
+                    "label": "Name",
+                    "type": "string"
+                }
+            }
+        },
+        "tx_mask_hlg_slider_slides": {
+            "sql": {
+                "tx_mask_image": {
+                    "tx_mask_hlg_slider_slides": {
+                        "tx_mask_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_leistungsbereich": {
+                    "tx_mask_hlg_slider_slides": {
+                        "tx_mask_leistungsbereich": "tinytext"
+                    }
+                },
+                "tx_mask_link": {
+                    "tx_mask_hlg_slider_slides": {
+                        "tx_mask_link": "tinytext"
+                    }
+                },
+                "tx_mask_subtitle": {
+                    "tx_mask_hlg_slider_slides": {
+                        "tx_mask_subtitle": "tinytext"
+                    }
+                },
+                "tx_mask_title": {
+                    "tx_mask_hlg_slider_slides": {
+                        "tx_mask_title": "text"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_image": {
+                    "config": {
+                        "appearance": {
+                            "fileUploadAllowed": "1",
+                            "showAllLocalizationLink": "1",
+                            "showPossibleLocalizationRecords": "1",
+                            "showSynchronizationLink": "1"
+                        },
+                        "minitems": "1"
+                    },
+                    "fullKey": "tx_mask_image",
+                    "imageoverlayPalette": 1,
+                    "inlineParent": "tx_mask_hlg_slider_slides",
+                    "key": "image",
+                    "l10n_mode": "copy",
+                    "label": "Bild",
+                    "type": "file"
+                },
+                "tx_mask_leistungsbereich": {
+                    "config": {
+                        "foreign_table": "tx_mask_hlg_leistungsbereiche",
+                        "maxitems": "1",
+                        "renderType": "selectSingle",
+                        "type": "select"
+                    },
+                    "fullKey": "tx_mask_leistungsbereich",
+                    "inlineParent": "tx_mask_hlg_slider_slides",
+                    "key": "leistungsbereich",
+                    "label": "Leistungsbereich",
+                    "type": "select"
+                },
+                "tx_mask_link": {
+                    "config": {
+                        "type": "link"
+                    },
+                    "fullKey": "tx_mask_link",
+                    "inlineParent": "tx_mask_hlg_slider_slides",
+                    "key": "link",
+                    "label": "Link",
+                    "type": "link"
+                },
+                "tx_mask_subtitle": {
+                    "config": {
+                        "required": 1,
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_subtitle",
+                    "inlineParent": "tx_mask_hlg_slider_slides",
+                    "key": "subtitle",
+                    "label": "Untertitel",
+                    "type": "string"
+                },
+                "tx_mask_title": {
+                    "config": {
+                        "required": 1,
+                        "rows": "2",
+                        "type": "text"
+                    },
+                    "fullKey": "tx_mask_title",
+                    "inlineParent": "tx_mask_hlg_slider_slides",
+                    "key": "title",
+                    "label": "Titel",
+                    "type": "text"
+                }
+            }
+        },
+        "tx_mask_hlg_text_img_slider_slides": {
+            "sql": {
+                "tx_mask_bodytext": {
+                    "tx_mask_hlg_text_img_slider_slides": {
+                        "tx_mask_bodytext": "text"
+                    }
+                },
+                "tx_mask_header": {
+                    "tx_mask_hlg_text_img_slider_slides": {
+                        "tx_mask_header": "tinytext"
+                    }
+                },
+                "tx_mask_image": {
+                    "tx_mask_hlg_text_img_slider_slides": {
+                        "tx_mask_image": "int(11) unsigned DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_link": {
+                    "tx_mask_hlg_text_img_slider_slides": {
+                        "tx_mask_link": "tinytext"
+                    }
+                },
+                "tx_mask_orientation": {
+                    "tx_mask_hlg_text_img_slider_slides": {
+                        "tx_mask_orientation": "int(11) DEFAULT '0' NOT NULL"
+                    }
+                },
+                "tx_mask_subheader": {
+                    "tx_mask_hlg_text_img_slider_slides": {
+                        "tx_mask_subheader": "tinytext"
+                    }
+                }
+            },
+            "tca": {
+                "tx_mask_bodytext": {
+                    "config": {
+                        "enableRichtext": "1",
+                        "richtextConfiguration": "default",
+                        "type": "text"
+                    },
+                    "fullKey": "tx_mask_bodytext",
+                    "inlineParent": "tx_mask_hlg_text_img_slider_slides",
+                    "key": "bodytext",
+                    "label": "Text",
+                    "type": "richtext"
+                },
+                "tx_mask_header": {
+                    "config": {
+                        "autocomplete": "1",
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_header",
+                    "inlineParent": "tx_mask_hlg_text_img_slider_slides",
+                    "key": "header",
+                    "label": "\u00dcberschrift",
+                    "type": "string"
+                },
+                "tx_mask_image": {
+                    "config": {
+                        "appearance": {
+                            "showAllLocalizationLink": "1",
+                            "showPossibleLocalizationRecords": "1",
+                            "showSynchronizationLink": "1",
+                            "useSortable": "1"
+                        },
+                        "minitems": ""
+                    },
+                    "fullKey": "tx_mask_image",
+                    "imageoverlayPalette": 1,
+                    "inlineParent": "tx_mask_hlg_text_img_slider_slides",
+                    "key": "image",
+                    "l10n_mode": "copy",
+                    "label": "Bild",
+                    "type": "file"
+                },
+                "tx_mask_link": {
+                    "config": {
+                        "type": "link"
+                    },
+                    "fullKey": "tx_mask_link",
+                    "inlineParent": "tx_mask_hlg_text_img_slider_slides",
+                    "key": "link",
+                    "label": "Link",
+                    "type": "link"
+                },
+                "tx_mask_orientation": {
+                    "config": {
+                        "default": "10",
+                        "items": [
+                            {
+                                "label": "Text links \/ Bild rechts",
+                                "value": "10"
+                            },
+                            {
+                                "label": "Bild links \/ Text rechts",
+                                "value": "20"
+                            }
+                        ],
+                        "type": "radio"
+                    },
+                    "fullKey": "tx_mask_orientation",
+                    "inlineParent": "tx_mask_hlg_text_img_slider_slides",
+                    "key": "orientation",
+                    "label": "Orientierung",
+                    "type": "radio"
+                },
+                "tx_mask_subheader": {
+                    "config": {
+                        "autocomplete": "1",
+                        "type": "input"
+                    },
+                    "fullKey": "tx_mask_subheader",
+                    "inlineParent": "tx_mask_hlg_text_img_slider_slides",
+                    "key": "subheader",
+                    "label": "Untertitel",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
